@@ -1,25 +1,21 @@
-# Spring Form (Java + Spring Boot + Thymeleaf)
+# Spring Screening Form
 
-A tiny data-entry app with one form.
+A simple Java Spring Boot application with Thymeleaf for data entry and display.
 
-**Fields:** Name* (required), Title* (required), Age, Hometown  
-**After submit:** shows a table of all previous entries (in-memory)
+## Features
+- **Form Inputs:** Name (required), Age, Title (required), Hometown  
+- **Validation:** Required fields checked before submission  
+- **Confirmation Page:** Shows submitted data and a table of all previous entries  
+- Minimal CSS styling for readability
 
-## Run
+## Tech Stack
+- Java 17
+- Spring Boot (Web, Thymeleaf, Validation)
+- Maven
+
+## How to Run
 ```bash
+# In project root
 mvn spring-boot:run
-# then open http://localhost:8080
-```
 
-## Build Jar
-```bash
-mvn clean package
-java -jar target/spring-form-0.0.1-SNAPSHOT.jar
-```
-
-## Structure
-```
-src/main/java/com/example/form/...     # Java code
-src/main/resources/templates/index.html # View
-src/main/resources/static/style.css    # Minimal CSS
-```
+Open http://localhost:8080 in your browser.

@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; max-width: 720px; margin: 20px auto; padding: 0 12px; }
+h1 { margin-bottom: 10px; }
+form { padding: 12px; border: 1px solid #ddd; border-radius: 8px; }
+label { display: block; margin: 8px 0; }
+input { width: 100%; padding: 6px 8px; }
+button { margin-top: 10px; padding: 6px 10px; }
+.error { color: #c00; font-size: 0.9em; }
+table { width: 100%; border-collapse: collapse; margin-top: 14px; }
+th, td { border: 1px solid #ddd; padding: 6px 8px; text-align: left; }
+.note { font-size: 0.85em; color: #666; }
